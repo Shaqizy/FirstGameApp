@@ -1,4 +1,4 @@
-package sample;
+package gameApp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage Stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../gameApp/view/sample.fxml"));
         Stage.setTitle("Hello World");
         Stage.setScene(new Scene(root, 320, 320));
         Stage.show();
