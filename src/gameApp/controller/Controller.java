@@ -9,6 +9,7 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
     @FXML private Button but1;
+    @FXML private Button but2;
 
 
     @Override
